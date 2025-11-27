@@ -5,16 +5,16 @@ int main() {
     int arr[5];
     int i;
 
-    printf("ener 5 elements \n");
-    for(int i=0;i<5; i++){
-        scanf("%d", arr[5]);
+    printf("Enter 5 elements:\n");
 
+    for(i = 0; i < 5; i++) {
+        scanf("%d", &arr[i]); 
     }
-    printf("array elemnets :\n");
-    for(int i = 0; i<5; i++){
-        printf("arr [%d]= %d\n",i,arr[i]);
+
+    printf("Array elements:\n");
+    for(i = 0; i < 5; i++) {
+        printf("arr[%d] = %d\n", i, arr[i]);
     }
     
     return 0;
 }
-
