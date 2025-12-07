@@ -15,10 +15,10 @@ int main (){
     scanf("%s", &s1.name);
 
     printf("Enter student roll number :");
-    scanf("%s", &s1.roll_num);
+    scanf("%d", &s1.roll_num);
     
     printf("Enter student marks is :");
-    scanf("%s", &s1.marks);
+    scanf("%f", &s1.marks);
 
     printf("Student name is %s\n",p->name);
     printf("Student roll num is %d\n",p->roll_num);
