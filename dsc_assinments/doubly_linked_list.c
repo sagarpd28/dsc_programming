@@ -1,4 +1,4 @@
- #include <stdio.h> 
+#include <stdio.h> 
 #include <stdlib.h> 
  
 // Self-referential structure for Doubly Linked List 
@@ -19,7 +19,7 @@ struct NODE* createNode(int value) {
     newNode->prev = NULL; 
     newNode->next = NULL; 
     return newNode; 
-} 
+}
  
 // Function to insert node at the end 
 struct NODE* insertEnd(struct NODE *head, int value) { 
